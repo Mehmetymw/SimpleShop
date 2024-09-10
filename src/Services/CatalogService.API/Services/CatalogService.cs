@@ -1,3 +1,4 @@
+using CatalogService.API.Dtos;
 using CatalogService.API.Repositories;
 
 namespace CatalogService.API.Services;
@@ -5,12 +6,12 @@ public class CatalogService(ICatalogRepository CatalogRepository) : ICatalogServ
 {
     private readonly ICatalogRepository _CatalogRepository = CatalogRepository;
 
-    public Task<Catalog> GetCatalogByIdAsync(string id) =>
-        _CatalogRepository.GetCatalogByIdAsync(id);
+    public async Task<Catalog> GetCatalogByIdAsync(string id) =>
+        await _CatalogRepository.GetCatalogByIdAsync(id);
 
-    public Task<IEnumerable<Catalog>> GetCatalogsAsync() =>
-        _CatalogRepository.GetCatalogsAsync();
+    public async Task<IEnumerable<Catalog>> GetCatalogsAsync() =>
+        await _CatalogRepository.GetCatalogsAsync();
 
-    public Task CreateCatalogAsync(Catalog Catalog) =>
-        _CatalogRepository.CreateCatalogAsync(Catalog);
+    public async Task<Catalog> CreateCatalogAsync(CreateCatalogDto Catalog) =>
+        await _CatalogRepository.CreateCatalogAsync(Catalog);
 }

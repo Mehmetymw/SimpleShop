@@ -1,0 +1,240 @@
+2024-09-10 15:41:32.156 +03:00 [INF] Request received to add item with ID: string to basket for user with ID: test
+2024-09-10 15:41:32.190 +03:00 [INF] Adding item with ID: string to basket for user with ID: string
+2024-09-10 15:41:32.195 +03:00 [INF] Fetching basket for user with ID: string
+2024-09-10 15:41:32.205 +03:00 [INF] Basket for user with ID: string retrieved successfully
+2024-09-10 15:41:32.225 +03:00 [INF] Item with ID: string added to basket successfully
+2024-09-10 15:41:32.228 +03:00 [INF] Successfully added item with ID: string to basket for user with ID: test
+2024-09-10 15:42:33.739 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 15:42:33.747 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 15:42:33.755 +03:00 [INF] Basket for user with ID: test retrieved successfully
+2024-09-10 15:42:33.764 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 15:44:42.075 +03:00 [INF] Request received to remove item with ID: string from basket for user with ID: test
+2024-09-10 15:44:42.080 +03:00 [INF] Removing item with ID: string from basket for user with ID: test
+2024-09-10 15:44:42.085 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 15:44:42.092 +03:00 [INF] Basket for user with ID: test retrieved successfully
+2024-09-10 15:44:42.100 +03:00 [INF] Item with ID: string removed from basket successfully
+2024-09-10 15:44:42.104 +03:00 [INF] Successfully removed item with ID: string from basket for user with ID: test
+2024-09-10 16:01:08.158 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:01:08.261 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:01:08.265 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:01:08.301 +03:00 [INF] Basket for user with ID: test retrieved successfully
+2024-09-10 16:01:08.305 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:01:08.316 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:06:18.661 +03:00 [INF] Creating basket item with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532 for user: test
+2024-09-10 16:06:18.773 +03:00 [INF] Adding item with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532 to basket for user with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532
+2024-09-10 16:06:18.781 +03:00 [INF] Fetching basket for user with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532
+2024-09-10 16:06:18.801 +03:00 [INF] Basket for user with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532 retrieved successfully
+2024-09-10 16:06:18.824 +03:00 [INF] Item with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532 added to basket successfully
+2024-09-10 16:06:18.831 +03:00 [INF] Basket item with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532 created successfully
+2024-09-10 16:06:18.838 +03:00 [INF] Successfully created basket item with ID: 374f45f1-8f61-4568-b65f-4db6f5b54532 for user with ID: test
+2024-09-10 16:06:39.741 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:06:39.746 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:06:39.749 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:06:39.760 +03:00 [INF] Basket for user with ID: test retrieved successfully
+2024-09-10 16:06:39.768 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:06:39.780 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:06:42.589 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:06:42.592 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:06:42.597 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:06:42.606 +03:00 [INF] Basket for user with ID: test retrieved successfully
+2024-09-10 16:06:42.610 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:06:42.618 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:07:53.445 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:07:53.517 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:07:53.521 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:07:53.548 +03:00 [INF] Basket for user with ID: test retrieved successfully
+2024-09-10 16:07:53.555 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:07:53.566 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:10:47.991 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:10:48.041 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:10:48.046 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:10:48.068 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:10:48.074 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:10:48.076 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:11:11.178 +03:00 [INF] Creating basket item with ID: 49eb7cd2-1e8d-4823-ae23-7d13e668f046 for user: test
+2024-09-10 16:11:11.185 +03:00 [INF] Adding item with ID: 49eb7cd2-1e8d-4823-ae23-7d13e668f046 to basket for user with ID: test
+2024-09-10 16:11:11.189 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:11:11.195 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:11:11.208 +03:00 [INF] Item with ID: 49eb7cd2-1e8d-4823-ae23-7d13e668f046 added to basket for user with ID: test successfully
+2024-09-10 16:11:11.213 +03:00 [INF] Basket item with ID: 49eb7cd2-1e8d-4823-ae23-7d13e668f046 created successfully
+2024-09-10 16:11:11.217 +03:00 [INF] Successfully created basket item with ID: 49eb7cd2-1e8d-4823-ae23-7d13e668f046 for user with ID: test
+2024-09-10 16:11:16.648 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:11:16.650 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:11:16.652 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:11:16.659 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:11:16.662 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:11:16.665 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:11:21.548 +03:00 [INF] Creating basket item with ID: 7ca68be5-6386-4365-bd56-e0c7c0a941f3 for user: test
+2024-09-10 16:11:21.554 +03:00 [INF] Adding item with ID: 7ca68be5-6386-4365-bd56-e0c7c0a941f3 to basket for user with ID: test
+2024-09-10 16:11:21.559 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:11:21.567 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:11:21.576 +03:00 [INF] Item with ID: 7ca68be5-6386-4365-bd56-e0c7c0a941f3 added to basket for user with ID: test successfully
+2024-09-10 16:11:21.580 +03:00 [INF] Basket item with ID: 7ca68be5-6386-4365-bd56-e0c7c0a941f3 created successfully
+2024-09-10 16:11:21.583 +03:00 [INF] Successfully created basket item with ID: 7ca68be5-6386-4365-bd56-e0c7c0a941f3 for user with ID: test
+2024-09-10 16:11:22.926 +03:00 [INF] Creating basket item with ID: 9c62a3c0-fd9f-4005-a2bc-fc692f64225f for user: test
+2024-09-10 16:11:22.930 +03:00 [INF] Adding item with ID: 9c62a3c0-fd9f-4005-a2bc-fc692f64225f to basket for user with ID: test
+2024-09-10 16:11:22.933 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:11:22.939 +03:00 [INF] Basket for user with ID: test retrieved successfully with 2 items
+2024-09-10 16:11:22.946 +03:00 [INF] Item with ID: 9c62a3c0-fd9f-4005-a2bc-fc692f64225f added to basket for user with ID: test successfully
+2024-09-10 16:11:22.950 +03:00 [INF] Basket item with ID: 9c62a3c0-fd9f-4005-a2bc-fc692f64225f created successfully
+2024-09-10 16:11:22.957 +03:00 [INF] Successfully created basket item with ID: 9c62a3c0-fd9f-4005-a2bc-fc692f64225f for user with ID: test
+2024-09-10 16:11:25.753 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:11:25.755 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:11:25.758 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:11:25.767 +03:00 [INF] Basket for user with ID: test retrieved successfully with 3 items
+2024-09-10 16:11:25.772 +03:00 [INF] Fetched 3 items from basket for user: test
+2024-09-10 16:11:25.776 +03:00 [INF] Successfully fetched 3 items from the basket for user with ID: test
+2024-09-10 16:12:59.327 +03:00 [INF] Creating basket item with ID: fa7c18fe-dd68-4010-a370-06a2ec082163 for user: test
+2024-09-10 16:12:59.414 +03:00 [INF] Adding item with ID: fa7c18fe-dd68-4010-a370-06a2ec082163 to basket for user with ID: test
+2024-09-10 16:12:59.423 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:12:59.442 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:12:59.468 +03:00 [INF] Item with ID: fa7c18fe-dd68-4010-a370-06a2ec082163 added to basket successfully for user with ID: test
+2024-09-10 16:12:59.476 +03:00 [INF] Basket item with ID: fa7c18fe-dd68-4010-a370-06a2ec082163 created successfully
+2024-09-10 16:12:59.485 +03:00 [INF] Successfully created basket item with ID: fa7c18fe-dd68-4010-a370-06a2ec082163 for user with ID: test
+2024-09-10 16:13:06.684 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:13:06.689 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:13:06.693 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:13:06.709 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:13:06.717 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:13:06.724 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:13:09.367 +03:00 [INF] Creating basket item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b for user: test
+2024-09-10 16:13:09.369 +03:00 [INF] Adding item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b to basket for user with ID: test
+2024-09-10 16:13:09.372 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:13:09.380 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:13:09.390 +03:00 [INF] Item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b added to basket successfully for user with ID: test
+2024-09-10 16:13:09.400 +03:00 [INF] Basket item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b created successfully
+2024-09-10 16:13:09.410 +03:00 [INF] Successfully created basket item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b for user with ID: test
+2024-09-10 16:13:11.740 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:13:11.742 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:13:11.743 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:13:11.747 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:13:11.749 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:13:11.753 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:13:52.740 +03:00 [INF] Updating basket item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b
+2024-09-10 16:13:52.745 +03:00 [INF] Updating item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b in basket for user with ID: test
+2024-09-10 16:13:52.750 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:13:52.757 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:13:52.795 +03:00 [INF] Item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b updated in basket for user with ID: test successfully
+2024-09-10 16:13:52.806 +03:00 [INF] Basket item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b updated successfully
+2024-09-10 16:13:52.811 +03:00 [INF] Successfully updated basket item with ID: 8945c655-9c24-47c6-80cd-c116ffb93a3b
+2024-09-10 16:13:57.991 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:13:57.996 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:13:58.001 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:13:58.013 +03:00 [INF] Basket for user with ID: test retrieved successfully with 2 items
+2024-09-10 16:13:58.023 +03:00 [INF] Fetched 2 items from basket for user: test
+2024-09-10 16:13:58.027 +03:00 [INF] Successfully fetched 2 items from the basket for user with ID: test
+2024-09-10 16:13:59.574 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:13:59.575 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:13:59.577 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:13:59.581 +03:00 [INF] Basket for user with ID: test retrieved successfully with 2 items
+2024-09-10 16:13:59.583 +03:00 [INF] Fetched 2 items from basket for user: test
+2024-09-10 16:13:59.585 +03:00 [INF] Successfully fetched 2 items from the basket for user with ID: test
+2024-09-10 16:17:53.179 +03:00 [INF] Creating basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d for user: test
+2024-09-10 16:17:53.207 +03:00 [INF] Adding item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d to basket for user with ID: test
+2024-09-10 16:17:53.212 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:17:53.223 +03:00 [INF] Basket for user with ID: test retrieved successfully with 2 items
+2024-09-10 16:17:53.234 +03:00 [INF] Item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d added to basket successfully for user with ID: test
+2024-09-10 16:17:53.235 +03:00 [INF] Basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d created successfully
+2024-09-10 16:17:53.236 +03:00 [INF] Successfully created basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d for user with ID: test
+2024-09-10 16:18:15.188 +03:00 [INF] Updating basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+2024-09-10 16:18:15.195 +03:00 [INF] Updating item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d in basket for user with ID: test
+2024-09-10 16:18:15.197 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:18:15.201 +03:00 [INF] Basket for user with ID: test retrieved successfully with 3 items
+2024-09-10 16:18:15.206 +03:00 [INF] Item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d updated successfully in basket for user with ID: test
+2024-09-10 16:18:15.210 +03:00 [INF] Basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d updated successfully
+2024-09-10 16:18:15.213 +03:00 [INF] Successfully updated basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+2024-09-10 16:18:20.324 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:18:20.326 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:18:20.327 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:18:20.329 +03:00 [INF] Basket for user with ID: test retrieved successfully with 3 items
+2024-09-10 16:18:20.331 +03:00 [INF] Fetched 3 items from basket for user: test
+2024-09-10 16:18:20.332 +03:00 [INF] Successfully fetched 3 items from the basket for user with ID: test
+2024-09-10 16:18:54.813 +03:00 [INF] Updating basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+2024-09-10 16:18:54.818 +03:00 [INF] Updating item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d in basket for user with ID: test
+2024-09-10 16:18:54.821 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:18:54.827 +03:00 [INF] Basket for user with ID: test retrieved successfully with 3 items
+2024-09-10 16:18:54.833 +03:00 [INF] Item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d updated successfully in basket for user with ID: test
+2024-09-10 16:18:54.836 +03:00 [INF] Basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d updated successfully
+2024-09-10 16:18:54.837 +03:00 [INF] Successfully updated basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+2024-09-10 16:18:57.670 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:18:57.673 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:18:57.675 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:18:57.678 +03:00 [INF] Basket for user with ID: test retrieved successfully with 3 items
+2024-09-10 16:18:57.680 +03:00 [INF] Fetched 3 items from basket for user: test
+2024-09-10 16:18:57.682 +03:00 [INF] Successfully fetched 3 items from the basket for user with ID: test
+2024-09-10 16:19:03.351 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:19:03.354 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:19:03.356 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:03.360 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:19:03.362 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:19:03.364 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:19:06.197 +03:00 [INF] Updating basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+2024-09-10 16:19:06.205 +03:00 [INF] Updating item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d in basket for user with ID: test
+2024-09-10 16:19:06.209 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:06.215 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:19:06.220 +03:00 [WRN] Item with CatalogId: string not found in the basket for user with ID: test
+2024-09-10 16:19:06.225 +03:00 [ERR] Error occurred while updating item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d in basket for user with ID: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: string not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.UpdateBasketAsync(BasketItem item) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 79
+2024-09-10 16:19:06.251 +03:00 [ERR] Error updating basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: string not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.UpdateBasketAsync(BasketItem item) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 79
+   at BasketService.API.Services.BasketService.UpdateBasketItemAsync(BasketItem item) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Services\BasketService.cs:line 81
+2024-09-10 16:19:06.255 +03:00 [ERR] An error occurred while updating basket item with ID: 9ae53115-6443-4fc2-b58a-7fe6cb09861d
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: string not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.UpdateBasketAsync(BasketItem item) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 79
+   at BasketService.API.Services.BasketService.UpdateBasketItemAsync(BasketItem item) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Services\BasketService.cs:line 81
+   at BasketService.API.Controllers.BasketController.UpdateBasketItem(BasketItem item) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Controllers\BasketController.cs:line 78
+2024-09-10 16:19:09.295 +03:00 [INF] Creating basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 for user: test
+2024-09-10 16:19:09.296 +03:00 [INF] Adding item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 to basket for user with ID: test
+2024-09-10 16:19:09.298 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:09.301 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:19:09.305 +03:00 [INF] Item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 added to basket successfully for user with ID: test
+2024-09-10 16:19:09.308 +03:00 [INF] Basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 created successfully
+2024-09-10 16:19:09.310 +03:00 [INF] Successfully created basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 for user with ID: test
+2024-09-10 16:19:22.444 +03:00 [INF] Updating basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067
+2024-09-10 16:19:22.446 +03:00 [INF] Updating item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 in basket for user with ID: test
+2024-09-10 16:19:22.448 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:22.452 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:22.456 +03:00 [INF] Item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 updated successfully in basket for user with ID: test
+2024-09-10 16:19:22.459 +03:00 [INF] Basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 updated successfully
+2024-09-10 16:19:22.460 +03:00 [INF] Successfully updated basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067
+2024-09-10 16:19:24.662 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:19:24.665 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:19:24.667 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:24.671 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:24.673 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:19:24.675 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:19:29.343 +03:00 [INF] Updating basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067
+2024-09-10 16:19:29.347 +03:00 [INF] Updating item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 in basket for user with ID: test
+2024-09-10 16:19:29.350 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:29.355 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:29.363 +03:00 [INF] Item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 updated successfully in basket for user with ID: test
+2024-09-10 16:19:29.365 +03:00 [INF] Basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 updated successfully
+2024-09-10 16:19:29.366 +03:00 [INF] Successfully updated basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067
+2024-09-10 16:19:32.733 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:19:32.736 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:19:32.738 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:32.743 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:32.746 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:19:32.748 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:19:38.501 +03:00 [INF] Creating basket item with ID: 985df25d-c35c-4ec0-b1c5-76129c93e2cc for user: test
+2024-09-10 16:19:38.504 +03:00 [INF] Adding item with ID: 985df25d-c35c-4ec0-b1c5-76129c93e2cc to basket for user with ID: test
+2024-09-10 16:19:38.508 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:38.512 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:38.520 +03:00 [INF] Item with ID: 985df25d-c35c-4ec0-b1c5-76129c93e2cc added to basket successfully for user with ID: test
+2024-09-10 16:19:38.524 +03:00 [INF] Basket item with ID: 985df25d-c35c-4ec0-b1c5-76129c93e2cc created successfully
+2024-09-10 16:19:38.527 +03:00 [INF] Successfully created basket item with ID: 985df25d-c35c-4ec0-b1c5-76129c93e2cc for user with ID: test
+2024-09-10 16:19:41.347 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:19:41.352 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:19:41.355 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:41.361 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:41.363 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:19:41.366 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:19:57.848 +03:00 [INF] Removing basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 from user: test
+2024-09-10 16:19:57.852 +03:00 [INF] Removing item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 from basket for user with ID: test
+2024-09-10 16:19:57.853 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:19:57.859 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:19:57.864 +03:00 [INF] Item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 removed from basket for user with ID: test successfully
+2024-09-10 16:19:57.866 +03:00 [INF] Basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 removed successfully
+2024-09-10 16:19:57.867 +03:00 [INF] Successfully removed basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 for user with ID: test

@@ -1,4 +1,5 @@
 
+using BasketService.API.Extensions;
 using BasketService.API.Repositories;
 using BasketService.API.Services;
 using StackExchange.Redis;
@@ -10,11 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-// Configure Redis
-builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-    ConnectionMultiplexer.Connect(builder.Configuration.GetValue<string>("Redis:ConnectionString")));
 
-// Register repositories and services
+builder.Services.AddSerilogConfiguration();
+
+builder.Services.AddRedisConfiguration(builder.Configuration);
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddScoped<IBasketService, BasketService.API.Services.BasketService>();
 
@@ -29,5 +29,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapControllers();
 
 app.Run();

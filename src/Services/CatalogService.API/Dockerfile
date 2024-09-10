@@ -1,19 +1,16 @@
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-WORKDIR /src
-COPY ["CatalogService.API/CatalogService.API.csproj", "CatalogService.API/"]
-RUN dotnet restore "CatalogService.API/CatalogService.API.csproj"
-COPY . .
-WORKDIR "/src/CatalogService.API"
-RUN dotnet build "CatalogService.API.csproj" -c Release -o /app/build
+COPY src/Services/CatalogService.API/CatalogService.API.csproj ./CatalogService.API/
+RUN dotnet restore CatalogService.API/CatalogService.API.csproj
 
-FROM build AS publish
-RUN dotnet publish "CatalogService.API.csproj" -c Release -o /app/publish
+COPY src/Services/CatalogService.API/. ./CatalogService.API/
+WORKDIR /app/CatalogService.API
+RUN dotnet build -c Release -o /app/build
 
-FROM base AS final
+RUN dotnet publish -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "CatalogService.API.dll"]

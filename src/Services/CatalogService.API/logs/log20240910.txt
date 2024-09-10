@@ -1,0 +1,20 @@
+2024-09-10 14:57:59.577 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
+2024-09-10 14:57:59.628 +03:00 [INF] Fetching all catalogs
+2024-09-10 14:57:59.731 +03:00 [INF] Creating catalog with ID: 7828143c-993e-461d-a2c6-318e5b2c35be
+2024-09-10 14:57:59.827 +03:00 [INF] Catalog with ID: 7828143c-993e-461d-a2c6-318e5b2c35be created successfully
+2024-09-10 14:57:59.830 +03:00 [INF] Creating catalog with ID: 5c3b4233-b075-4bba-9fa9-6770f13e90df
+2024-09-10 14:57:59.833 +03:00 [INF] Catalog with ID: 5c3b4233-b075-4bba-9fa9-6770f13e90df created successfully
+2024-09-10 14:57:59.835 +03:00 [INF] Creating catalog with ID: 1d6833a7-f55e-4dfc-90a3-38ca2b76b9ba
+2024-09-10 14:57:59.838 +03:00 [INF] Catalog with ID: 1d6833a7-f55e-4dfc-90a3-38ca2b76b9ba created successfully
+2024-09-10 15:04:57.660 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
+2024-09-10 15:04:57.711 +03:00 [INF] Fetching all catalogs
+2024-09-10 15:07:42.756 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
+2024-09-10 15:07:42.826 +03:00 [INF] Fetching all catalogs
+2024-09-10 15:07:46.056 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
+2024-09-10 15:07:46.077 +03:00 [INF] Fetching catalog with ID: 7828143c-993e-461d-a2c6-318e5b2c35be
+2024-09-10 15:07:46.081 +03:00 [INF] Fetching catalog with ID: 7828143c-993e-461d-a2c6-318e5b2c35be
+2024-09-10 15:07:46.124 +03:00 [INF] Catalog with ID: 7828143c-993e-461d-a2c6-318e5b2c35be found
+2024-09-10 15:07:48.952 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
+2024-09-10 15:07:48.954 +03:00 [INF] Fetching all catalogs
+2024-09-10 15:07:48.955 +03:00 [INF] Fetching all catalogs
+2024-09-10 15:07:48.958 +03:00 [INF] Fetched 3 catalogs

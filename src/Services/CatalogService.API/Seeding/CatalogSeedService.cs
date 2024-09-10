@@ -1,3 +1,4 @@
+using CatalogService.API.Dtos;
 using CatalogService.API.Repositories;
 namespace CatalogService.API.Seeding;
 public class CatalogSeedService(ICatalogRepository catalogRepository) : ICatalogSeedService
@@ -12,11 +13,11 @@ public class CatalogSeedService(ICatalogRepository catalogRepository) : ICatalog
             return;
         }
 
-        var seedItems = new List<Catalog>
+        var seedItems = new List<CreateCatalogDto>
             {
-                new(){ Id = Guid.NewGuid().ToString(), Name = "Item 1", Price = 10.0m, Description = "Description for Item 1" },
-                new(){ Id = Guid.NewGuid().ToString(), Name = "Item 2", Price = 20.0m, Description = "Description for Item 2" },
-                new(){ Id = Guid.NewGuid().ToString(), Name = "Item 3", Price = 30.0m, Description = "Description for Item 3" }
+                new(){ Name = "Item 1", Price = 10.0m, Description = "Description for Item 1" },
+                new(){ Name = "Item 2", Price = 20.0m, Description = "Description for Item 2" },
+                new(){ Name = "Item 3", Price = 30.0m, Description = "Description for Item 3" }
             };
 
         foreach (var item in seedItems)

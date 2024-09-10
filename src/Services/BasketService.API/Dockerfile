@@ -1,19 +1,16 @@
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-WORKDIR /src
-COPY ["BasketService.API/BasketService.API.csproj", "BasketService.API/"]
-RUN dotnet restore "BasketService.API/BasketService.API.csproj"
-COPY . .
-WORKDIR "/src/BasketService.API"
-RUN dotnet build "BasketService.API.csproj" -c Release -o /app/build
+COPY src/Services/BasketService.API/BasketService.API.csproj ./BasketService.API/
+RUN dotnet restore BasketService.API/BasketService.API.csproj
 
-FROM build AS publish
-RUN dotnet publish "BasketService.API.csproj" -c Release -o /app/publish
+COPY src/Services/BasketService.API/. ./BasketService.API/
+WORKDIR /app/BasketService.API
+RUN dotnet build -c Release -o /app/build
 
-FROM base AS final
+RUN dotnet publish -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "BasketService.API.dll"]

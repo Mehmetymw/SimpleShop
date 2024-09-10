@@ -10,7 +10,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - MongoSettings__ConnectionString=mongodb://mongo:27017
-      - MongoSettings__DatabaseName=Catalog
+      - MongoSettings__DatabaseName=CatalogDb
     depends_on:
       - mongo
 
@@ -43,5 +43,6 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
+
 volumes:
   mongodbdata:
