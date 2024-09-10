@@ -1,4 +1,5 @@
 version: '3.8'
+name: simpleshop
 
 services:
   catalogservice:
@@ -6,7 +7,7 @@ services:
       context: .
       dockerfile: src/Services/CatalogService.API/Dockerfile
     ports:
-      - "5001:80"
+      - "5001:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - MongoSettings__ConnectionString=mongodb://mongo:27017
@@ -19,7 +20,7 @@ services:
       context: .
       dockerfile: src/Services/BasketService.API/Dockerfile
     ports:
-      - "5002:80"
+      - "5002:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - Redis__ConnectionString=redis:6379
@@ -37,12 +38,10 @@ services:
     image: redis:latest
     ports:
       - "6379:6379"
+    volumes:
+      - redisdata:/data
 
-  rabbitmq:
-    image: rabbitmq:management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
 
 volumes:
   mongodbdata:
+  redisdata:

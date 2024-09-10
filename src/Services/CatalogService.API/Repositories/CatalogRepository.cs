@@ -1,20 +1,31 @@
 using CatalogService.API.Configurations;
 using CatalogService.API.Dtos;
 using Microsoft.Extensions.Options;
+using MongoDB.Bson;
 using MongoDB.Driver;
-namespace CatalogService.API.Repositories; public class CatalogRepository : ICatalogRepository
+using Serilog;
+
+namespace CatalogService.API.Repositories;
+
+public class CatalogRepository : ICatalogRepository
 {
     private readonly IMongoCollection<Catalog> _catalogs;
     private readonly Serilog.ILogger _logger;
 
     public CatalogRepository(IMongoClient mongoClient, IOptions<MongoSettings> mongoSettings, Serilog.ILogger logger)
     {
+        if (mongoSettings == null || mongoSettings.Value == null)
+        {
+            throw new ArgumentNullException(nameof(mongoSettings), "MongoSettings cannot be null.");
+        }
+
         var database = mongoClient.GetDatabase(mongoSettings.Value.DatabaseName);
         _catalogs = database.GetCollection<Catalog>("Catalog");
         _logger = logger;
 
         _logger.Information("CatalogRepository initialized with database: {DatabaseName}", mongoSettings.Value.DatabaseName);
     }
+
 
     public async Task<Catalog> GetCatalogByIdAsync(string id)
     {
@@ -58,6 +69,7 @@ namespace CatalogService.API.Repositories; public class CatalogRepository : ICat
 
         var catalog = new Catalog
         {
+            Id = Guid.NewGuid(),
             Name = createCatalogDto.Name,
             Description = createCatalogDto.Description,
             Price = createCatalogDto.Price
@@ -75,5 +87,4 @@ namespace CatalogService.API.Repositories; public class CatalogRepository : ICat
             throw;
         }
     }
-
 }

@@ -238,3 +238,76 @@ System.Collections.Generic.KeyNotFoundException: Item with CatalogId: string not
 2024-09-10 16:19:57.864 +03:00 [INF] Item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 removed from basket for user with ID: test successfully
 2024-09-10 16:19:57.866 +03:00 [INF] Basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 removed successfully
 2024-09-10 16:19:57.867 +03:00 [INF] Successfully removed basket item with ID: c1fd4405-a299-4a23-8749-5f286f24e067 for user with ID: test
+2024-09-10 16:23:39.954 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:23:40.046 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:23:40.052 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:23:40.074 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:23:40.079 +03:00 [INF] Fetched 0 items from basket for user: test
+2024-09-10 16:23:40.084 +03:00 [WRN] No items found in the basket for user with ID: test
+2024-09-10 16:23:47.862 +03:00 [INF] Creating basket item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 for user: test
+2024-09-10 16:23:47.870 +03:00 [INF] Adding item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 to basket for user with ID: test
+2024-09-10 16:23:47.874 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:23:47.882 +03:00 [INF] Basket for user with ID: test retrieved successfully with 0 items
+2024-09-10 16:23:47.906 +03:00 [INF] Item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 added to basket successfully for user with ID: test
+2024-09-10 16:23:47.912 +03:00 [INF] Basket item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 created successfully
+2024-09-10 16:23:47.920 +03:00 [INF] Successfully created basket item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 for user with ID: test
+2024-09-10 16:23:53.071 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:23:53.073 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:23:53.075 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:23:53.081 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:23:53.084 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:23:53.088 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:23:55.884 +03:00 [INF] Creating basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 for user: test
+2024-09-10 16:23:55.887 +03:00 [INF] Adding item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 to basket for user with ID: test
+2024-09-10 16:23:55.893 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:23:55.901 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:23:55.910 +03:00 [INF] Item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 added to basket successfully for user with ID: test
+2024-09-10 16:23:55.918 +03:00 [INF] Basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 created successfully
+2024-09-10 16:23:55.926 +03:00 [INF] Successfully created basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 for user with ID: test
+2024-09-10 16:23:57.926 +03:00 [INF] Request received to fetch basket for user with ID: test
+2024-09-10 16:23:57.928 +03:00 [INF] Fetching basket for user: test
+2024-09-10 16:23:57.931 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:23:57.934 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:23:57.935 +03:00 [INF] Fetched 1 items from basket for user: test
+2024-09-10 16:23:57.938 +03:00 [INF] Successfully fetched 1 items from the basket for user with ID: test
+2024-09-10 16:24:16.251 +03:00 [INF] Removing basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" from user: test
+2024-09-10 16:24:16.258 +03:00 [INF] Removing item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" from basket for user with ID: test
+2024-09-10 16:24:16.263 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:24:16.272 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:24:16.280 +03:00 [WRN] Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" not found in the basket for user with ID: test
+2024-09-10 16:24:16.289 +03:00 [ERR] Error occurred while removing item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" from basket for user with ID: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.RemoveFromBasketAsync(String userId, String catalogId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 123
+2024-09-10 16:24:16.362 +03:00 [ERR] Error removing basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" from user: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.RemoveFromBasketAsync(String userId, String catalogId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 123
+   at BasketService.API.Services.BasketService.RemoveBasketItemAsync(String userId, String itemId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Services\BasketService.cs:line 102
+2024-09-10 16:24:16.375 +03:00 [ERR] An error occurred while removing basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" for user with ID: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6" not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.RemoveFromBasketAsync(String userId, String catalogId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 123
+   at BasketService.API.Services.BasketService.RemoveBasketItemAsync(String userId, String itemId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Services\BasketService.cs:line 102
+   at BasketService.API.Controllers.BasketController.RemoveBasketItem(String userId, String itemId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Controllers\BasketController.cs:line 100
+2024-09-10 16:24:25.070 +03:00 [INF] Removing basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 from user: test
+2024-09-10 16:24:25.072 +03:00 [INF] Removing item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 from basket for user with ID: test
+2024-09-10 16:24:25.074 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:24:25.077 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:24:25.080 +03:00 [WRN] Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 not found in the basket for user with ID: test
+2024-09-10 16:24:25.082 +03:00 [ERR] Error occurred while removing item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 from basket for user with ID: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.RemoveFromBasketAsync(String userId, String catalogId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 123
+2024-09-10 16:24:25.087 +03:00 [ERR] Error removing basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 from user: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.RemoveFromBasketAsync(String userId, String catalogId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 123
+   at BasketService.API.Services.BasketService.RemoveBasketItemAsync(String userId, String itemId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Services\BasketService.cs:line 102
+2024-09-10 16:24:25.094 +03:00 [ERR] An error occurred while removing basket item with ID: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 for user with ID: test
+System.Collections.Generic.KeyNotFoundException: Item with CatalogId: c6f4e1df-1ae4-4cda-83b3-7e4134baa5c6 not found in the basket.
+   at BasketService.API.Repositories.BasketRepository.RemoveFromBasketAsync(String userId, String catalogId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Repositories\BasketRepository.cs:line 123
+   at BasketService.API.Services.BasketService.RemoveBasketItemAsync(String userId, String itemId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Services\BasketService.cs:line 102
+   at BasketService.API.Controllers.BasketController.RemoveBasketItem(String userId, String itemId) in C:\Users\mehmet.yildirim\Desktop\Personal\SimpleShop\src\Services\BasketService.API\Controllers\BasketController.cs:line 100
+2024-09-10 16:25:03.180 +03:00 [INF] Removing basket item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 from user: test
+2024-09-10 16:25:03.214 +03:00 [INF] Removing item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 from basket for user with ID: test
+2024-09-10 16:25:03.218 +03:00 [INF] Fetching basket for user with ID: test
+2024-09-10 16:25:03.236 +03:00 [INF] Basket for user with ID: test retrieved successfully with 1 items
+2024-09-10 16:25:03.247 +03:00 [INF] Item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 removed from basket for user with ID: test successfully
+2024-09-10 16:25:03.250 +03:00 [INF] Basket item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 removed successfully
+2024-09-10 16:25:03.251 +03:00 [INF] Successfully removed basket item with ID: ddf15088-3a85-4889-86fe-610a199eeb11 for user with ID: test

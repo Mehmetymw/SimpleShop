@@ -2,22 +2,23 @@ using CatalogService.API.Configurations;
 using CatalogService.API.Seeding;
 using MongoDB.Driver;
 
-namespace CatalogService.API.Extensions;
-public static class MongoDbExtensions
+namespace CatalogService.API.Extensions
 {
-
-    public static void AddMongoDb(this IServiceCollection services, IConfiguration configuration)
+    public static class MongoDbExtensions
     {
-        services.Configure<MongoSettings>(configuration.GetSection("MongoSettings"));
-        services.AddSingleton<IMongoClient>(sp =>
-            new MongoClient(configuration.GetValue<string>("MongoSettings:ConnectionString")));
-    }
+        public static void AddMongoDb(this IServiceCollection services, IConfiguration configuration)
+        {
+            var section = configuration.GetSection("MongoSettings");
+            services.Configure<MongoSettings>(section);
+            services.AddSingleton<IMongoClient>(sp =>
+                new MongoClient(configuration.GetValue<string>("MongoSettings:ConnectionString")));
+        }
 
-    public static async Task SeedDatabaseAsync(this IApplicationBuilder app)
-    {
-        using var scope = app.ApplicationServices.CreateScope();
-        var seedService = scope.ServiceProvider.GetRequiredService<ICatalogSeedService>();
-        await seedService.SeedAsync();
+        public static async Task SeedDatabaseAsync(this IApplicationBuilder app)
+        {
+            using var scope = app.ApplicationServices.CreateScope();
+            var seedService = scope.ServiceProvider.GetRequiredService<ICatalogSeedService>();
+            await seedService.SeedAsync();
+        }
     }
 }
-
