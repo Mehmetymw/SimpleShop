@@ -265,3 +265,5 @@ System.TimeoutException: A timeout occurred after 30000ms selecting a server usi
 2024-09-10 18:26:45.930 +03:00 [INF] Fetched 3 catalogs
 2024-09-10 18:29:35.873 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
 2024-09-10 18:29:35.923 +03:00 [INF] Fetching all catalogs
+2024-09-10 20:00:16.915 +03:00 [INF] CatalogRepository initialized with database: CatalogDb
+2024-09-10 20:00:16.967 +03:00 [INF] Fetching all catalogs

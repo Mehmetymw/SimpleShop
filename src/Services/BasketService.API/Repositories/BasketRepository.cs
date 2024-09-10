@@ -15,7 +15,7 @@ public class BasketRepository(IConnectionMultiplexer redis, Serilog.ILogger logg
         try
         {
             var basket = await _database.StringGetAsync(userId);
-            var result = string.IsNullOrEmpty(basket) ? Enumerable.Empty<BasketItem>() : JsonSerializer.Deserialize<IEnumerable<BasketItem>>(basket);
+            var result = string.IsNullOrEmpty(basket) ? [] : JsonSerializer.Deserialize<IEnumerable<BasketItem>>(basket).Where(t=>t.Quantity!=0);
 
             _logger.Information("Basket for user with ID: {UserId} retrieved successfully with {Count} items", userId, result.Count());
             return result;

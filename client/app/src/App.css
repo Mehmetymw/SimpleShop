@@ -1,0 +1,21 @@
+.container {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+.page-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: relative;
+  min-height: 100vh; 
+}
+
+.page-header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
