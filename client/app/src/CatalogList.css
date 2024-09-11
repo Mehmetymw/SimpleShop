@@ -59,3 +59,11 @@
 .add-to-cart:hover {
   background-color: #e64a19;
 }
+
+.add-to-cart.added {
+  background-color: #28a745; 
+}
+
+.add-to-cart .MuiSvgIcon-root {
+  margin-left: 5px;
+}

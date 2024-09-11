@@ -7,16 +7,10 @@ namespace CatalogService.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class CatalogController : ControllerBase
+public class CatalogController(ICatalogService catalogService, Serilog.ILogger logger) : ControllerBase
 {
-    private readonly ICatalogService _catalogService;
-    private readonly Serilog.ILogger _logger;
-
-    public CatalogController(ICatalogService catalogService, Serilog.ILogger logger)
-    {
-        _catalogService = catalogService ?? throw new ArgumentNullException(nameof(catalogService));
-        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-    }
+    private readonly ICatalogService _catalogService = catalogService ?? throw new ArgumentNullException(nameof(catalogService));
+    private readonly Serilog.ILogger _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Catalog>> GetCatalog(string id)

@@ -4,17 +4,20 @@ import CatalogPage from './pages/CatalogPage';
 import BasketPage from './pages/BasketPage';
 import Header from './components/Header';
 import { CartProvider, useCart } from './context/CartContext';
+import { SnackbarProvider } from 'notistack';
 
 function App() {
   return (
     <CartProvider>
-      <Router>
-        <HeaderWithCartCount />
-        <Routes>
-          <Route path="/" element={<CatalogPage />} />
-          <Route path="/basket" element={<BasketPage />} />
-        </Routes>
-      </Router>
+      <SnackbarProvider maxSnack={3}>
+        <Router>
+          <HeaderWithCartCount />
+          <Routes>
+            <Route path="/" element={<CatalogPage />} />
+            <Route path="/basket" element={<BasketPage />} />
+          </Routes>
+        </Router>
+      </SnackbarProvider>
     </CartProvider>
   );
 }

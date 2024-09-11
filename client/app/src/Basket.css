@@ -19,6 +19,7 @@
   justify-content: space-between;
 }
 
+
 .basket-item-content {
   display: flex;
   align-items: center;
@@ -108,4 +109,38 @@
 
 .remove-button:hover .fa-trash-alt {
   color: #e64a19;
+}
+
+.total-quantity {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff5722; 
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.total-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pay-button{
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 4px;
+  padding:20px 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }

@@ -14,7 +14,7 @@ export function CartProvider({ children }) {
   const addToCart = async (item) => {
     try {
       const data = {
-        userId: 'test', 
+        userId: Config.DEFAULT_USER, 
         catalogId: item.id,
         quantity: 1
       };

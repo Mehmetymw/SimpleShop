@@ -1,14 +1,19 @@
-import React from 'react';
-import { useCart } from '../context/CartContext.js';
+import React, { useState } from 'react';
+import { useCart } from '../context/CartContext';
 import '../CatalogList.css';
 import placeholderImage from "../assets/150x150.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'; 
 
 function CatalogList({ catalogs }) {
   const { addToCart } = useCart();
+  const [addedItem, setAddedItem] = useState(null);
 
-  const handleAddToCart = (catalog) => {
+  const handleAddToCart = async (catalog) => {
     console.log('Adding to cart:', catalog); 
-    addToCart(catalog);
+    await addToCart(catalog);
+    setAddedItem(catalog.id);
+    setTimeout(() => setAddedItem(null), 500); 
   };
 
   return (
@@ -19,8 +24,15 @@ function CatalogList({ catalogs }) {
           <h2>{catalog.name}</h2>
           <p>{catalog.description}</p>
           <p>Price: ${catalog.price}</p>
-          <button className="add-to-cart" onClick={() => handleAddToCart(catalog)}>
-            Add to Cart
+          <button
+            className={`add-to-cart ${addedItem === catalog.id ? 'added' : ''}`}
+            onClick={() => handleAddToCart(catalog)}
+          >
+            {addedItem === catalog.id ? (
+              <FontAwesomeIcon icon={faCheckCircle} style={{ color: 'white' }} />
+            ) : (
+              'Add to Cart'
+            )}
           </button>
         </li>
       ))}

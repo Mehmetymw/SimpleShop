@@ -7,13 +7,17 @@ import "../App.css";
 function BasketPage() {
   const [basketItems, setBasketItems] = useState([]);
   const [catalogs, setCatalogs] = useState({});
+  const [totalQuantity, setTotalQuantity] = useState(0);
+  const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
     async function fetchBasket() {
       try {
-        const response = await axios.get(`${Config.BASKET_ENDPOINT}/`+Config.DEFAULT_USER);
-        setBasketItems(response.data);
-        await fetchCatalogs(response.data);
+        const response = await axios.get(`${Config.BASKET_ENDPOINT}/${Config.DEFAULT_USER}`);
+        const items = response.data;
+        setBasketItems(items);
+        await fetchCatalogs(items);
+        calculateTotalQuantity(items);
       } catch (error) {
         console.error('Error fetching basket', error);
       }
@@ -36,7 +40,14 @@ function BasketPage() {
     fetchBasket();
   }, []);
 
+  function calculateTotalQuantity(items) {
+    const total = items.reduce((acc, item) => acc + item.quantity, 0);
+    setTotalQuantity(total);
+  }
   const updateQuantity = async (itemId, quantity) => {
+    if (quantity == 0) {
+      return await handleRemove(itemId)
+    }
     try {
       const item = basketItems.find(item => item.id === itemId);
       await axios.put(`${Config.BASKET_ENDPOINT}`, {
@@ -45,7 +56,9 @@ function BasketPage() {
         catalogId: item.catalogId,
         quantity: quantity
       });
-      setBasketItems(basketItems.map(item => item.id === itemId ? { ...item, quantity } : item));
+      const updatedItems = basketItems.map(item => item.id === itemId ? { ...item, quantity } : item);
+      setBasketItems(updatedItems);
+      calculateTotalQuantity(updatedItems);
     } catch (error) {
       console.error('Error updating quantity', error);
     }
@@ -63,13 +76,14 @@ function BasketPage() {
     }
   };
 
-
   const handleRemove = async (itemId) => {
     try {
       await axios.delete(`${Config.BASKET_ENDPOINT}/${Config.DEFAULT_USER}/${itemId}`);
-      setBasketItems(basketItems.filter(item => item.id !== itemId));
+      const updatedItems = basketItems.filter(item => item.id !== itemId);
+      setBasketItems(updatedItems);
+      calculateTotalQuantity(updatedItems);
     } catch (error) {
-      console.error('Error removing item from basket', error);
+      console.error('Error removing item', error);
     }
   };
 
@@ -83,6 +97,19 @@ function BasketPage() {
         onDecrease={handleDecrease}
         onRemove={handleRemove}
       />
+      {
+        totalQuantity > 0 &&
+        <div className="total-container">
+          <h3>Total</h3>
+
+          <div>
+            <div>Total Price: {totalPrice}</div>
+            <div>Total Quantity: {totalQuantity}</div>
+            <button className='pay-button'>Pay</button>
+          </div>
+
+        </div>
+      }
     </div>
   );
 }

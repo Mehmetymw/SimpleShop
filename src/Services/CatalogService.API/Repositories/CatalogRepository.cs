@@ -69,7 +69,7 @@ public class CatalogRepository : ICatalogRepository
 
         var catalog = new Catalog
         {
-            Id = Guid.NewGuid(),
+            Id = Guid.NewGuid(), //Bson Oid'e çekilebilir.
             Name = createCatalogDto.Name,
             Description = createCatalogDto.Description,
             Price = createCatalogDto.Price
